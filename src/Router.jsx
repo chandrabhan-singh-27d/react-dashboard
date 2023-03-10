@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./pages/Home";
 import Layout from "./pages/Layout";
 import Login from "./pages/LoginUser"
 import Register from "./pages/RegisterUser";
@@ -17,15 +18,16 @@ const Router = () => {
             path: "/",
             element: <Layout />,
             children: [
-
+                {
+                    path: "/",
+                    element: <HomePage />
+                }
             ]
         }
     ])
-    return ( 
-        <div className="flex">
-            <RouterProvider router={router}/>
-        </div>
-     );
+    return (
+        <RouterProvider router={router} />
+    );
 }
 
 export default Router;

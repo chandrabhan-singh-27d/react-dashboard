@@ -7,10 +7,28 @@ const Sidebar = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Page1</Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/products">Page2</Link>
+                            <Link to="/">Stocks</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Intelligence</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Fundamental Data</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Forex Data</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Cryptocurrency Data</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Commodities Data</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Economic Indicators</Link>
                         </li>
                     </ul>
                 </nav>
