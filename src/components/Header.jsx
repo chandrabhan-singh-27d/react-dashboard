@@ -1,9 +1,11 @@
 const Header = () => {
-    return ( 
-        <div>
-            <h1>This is the header component</h1>
-        </div>
-     );
+    return (
+        <>
+            <header>
+                <h1>This is the header section</h1>
+            </header>
+        </>
+    );
 }
- 
+
 export default Header;
