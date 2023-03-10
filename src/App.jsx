@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import './App.css'
-
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Layout from './pages/Layout'
 function App() {
-  const [count, setCount] = useState(0)
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      Children: [
 
+      ]
+    }
+  ])
   return (
-    <div className="App">
-      <div id='main-wrapper' className='flex justify-between'>
-        <div id='table-wrapper'>
-          <h2>This is the table block</h2>
-        </div>
-        <div id='chart-wrapper'>
-          <h2>This is the chart block</h2>
-        </div>
-      </div>
+    <div className="flex">
+      <RouterProvider router={router} />
     </div>
   )
 }
