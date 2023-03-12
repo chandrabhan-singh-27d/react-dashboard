@@ -6,9 +6,11 @@ const SidebarMenu = () => {
         <>
             <nav>
                 <ul>
-                    {Object.values(menu).map(menuItem => {
-                        return <div key={menuItem.name}><DropdownMenu name={menuItem.name} submenu={menuItem.items} /></div>
-                    })}                    
+                    {Object.values(menu).map(menuItem => (
+                        <li key={menuItem.name}>
+                            <DropdownMenu name={menuItem.name} submenu={menuItem.items} />
+                        </li>)
+                    )}                    
                 </ul>
             </nav>
         </>
