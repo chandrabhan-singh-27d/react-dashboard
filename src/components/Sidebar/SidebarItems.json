@@ -1,0 +1,120 @@
+{
+    "menu": {
+        "0": {
+            "name": "Home",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                }
+            ]
+        },
+        "1": {
+            "name": "Stocks",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ]
+        },
+        "2": {
+            "name": "Intelligence Data",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ]
+        },
+        "3": {
+            "name": "Fundamental Data",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ]
+        },
+        "4": {
+            "name": "Forex Data",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ]
+        },
+        "5": {
+            "name": "Cryptocurrency Data",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ]
+        },
+        "6": {
+            "name": "Commodities Data",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ]
+        },
+        "7": {
+            "name": "Economic Indicators",
+            "items": [
+                {
+                    "path": "/",
+                    "name": "Home",
+                    "key": "home"
+                },
+                {
+                    "path": "/test",
+                    "name": "Test",
+                    "key": "test"
+                }
+            ] 
+        }
+        
+    }
+}
