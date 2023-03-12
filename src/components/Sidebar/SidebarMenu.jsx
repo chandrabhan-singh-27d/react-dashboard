@@ -1,6 +1,7 @@
 import DropdownMenu from "./Dropdown";
 import { menu } from "./SidebarItems.json"
 const SidebarMenu = () => {
+    
     return (
         <>
             <nav>

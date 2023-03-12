@@ -1,22 +1,16 @@
 import { Link } from "react-router-dom";
-const DropdownMenu = ({name, submenu}) => {
-    // console.log(name, submenu)
-    let menuItem, submenuList
-    if(submenu.length <= 1){
-        menuItem= <span><Link to={submenu[0].path}>{name}</Link></span>
-    } else{
-        submenu.map(submenuItem => {
-            submenuList = <div><Link to={submenuItem.path}>{submenuItem.name}</Link></div>
-            console.log(submenuItem)
-        })
-        menuItem = <div><span>{name}</span><div>{submenu.map(submenuItem => {
-            return <div><Link to={submenuItem.path}>{submenuItem.name}</Link></div>
-        })}</div></div>
-    }
+const DropdownMenu = ({ name, submenu }) => {
+    
     return (
         <>
             <div>
-                {menuItem}
+                {submenu.length <= 1 && <div className="py-2"><Link to={submenu[0].path}>{name}</Link></div>}
+                {submenu.length > 1 && <div>
+                    <div className="py-2">{name}</div>
+                    {submenu.map(submenuItem => {
+                        return <div key={submenuItem.key} className="ml-4 py-2"><Link to={submenuItem.path}>{submenuItem.name}</Link></div>
+                    })}
+                    </div>}
             </div>
         </>
     );
